@@ -11,8 +11,13 @@
     border: 1px solid #cecece;
 }
 
+.navbar {
+    z-index: 10;
+}
+
 .toast {
     position: absolute;
-    top: 65px;
+    z-index: 1000;
+    top: 80px;
     right: 10px;
 }
